@@ -1,0 +1,12 @@
+name: project-template-dev
+
+services:
+    project-template:
+        build:
+            context: ..
+            dockerfile: ./docker/Dockerfile
+        env_file:
+            - ../.vscode/.env
+            - ../.env
+        environment:
+            - DEBUG_MODE=TRUE

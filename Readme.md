@@ -23,3 +23,5 @@ Swagger: `http://localhost:8000/docs`
 Redocs: `http://localhost:8000/redoc`
 
 ## Deployment
+
+From the root of the project run `docker compose -f docker/docker-compose.yml up`
